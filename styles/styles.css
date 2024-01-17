@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: 'Clash Grotesk', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.content{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: #e0e0e0;
+}
+
+.profile-info{
+    border-radius: 21px;
+    background: #e0e0e0;
+    box-shadow:  10px 10px 20px #bebebe,-10px -10px 20px #ffffff;
+    height: 400px;
+    max-width: 320px;
+    padding: 30px;
+
+}
+
+.profile-image{display: flex; justify-content: center; padding-bottom: 20px;}
+.profile-info img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow:  10px 10px 20px #bebebe,-10px -10px 20px #ffffff;
+}
+
+.profile-message{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 35px;
+}
+.profile-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 156px;
+}
+
+.profile-buttons i{
+    font-size: 45px;
+    padding: 0px;
+}
+.profile-buttons i:hover{
+    color: #536471;
+    cursor: pointer;
+    transition: all ease-in-out .5s;
+    font-size: 50px;
+}
+.button{
+    margin: 25px;
+}
+
+h1{
+    font-size:30px;
+}
+h2
+{
+    font-size: 15px;
+    color: #536471;
+}
+
+a{
+    color: black;
+}
